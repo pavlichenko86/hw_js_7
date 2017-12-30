@@ -1,0 +1,149 @@
+input{
+	width: 100%;
+	position: relative;
+}
+.empty{
+	position: relative;
+}
+.empty:after{
+	content: "Заполните поле!";
+    position: absolute;
+    top: 0;
+    left: -151px;
+    display: block;
+    color: #fff;
+    width: 53%;
+    padding: 2px;
+    background: red;
+    text-align: center;
+}
+.wrap{
+	width: 250px;
+	margin: 0 auto;
+}
+#inp-wrap{
+	position: relative;
+}
+#inp-wrap>div{
+	margin-top: 10px;
+}
+#plus, .minusN{
+	position: absolute;
+	top: -4px;
+    right: -60px;
+	width: 27px;
+	height: 27px;
+	background: green;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	color: #fff;
+	font-size: 23px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+#sub{
+	display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+#all-text{
+	width: 250px;
+}
+input[type="radio"]{
+	width: 15px;
+}
+.radio{
+	padding-top: 20px;
+}
+.popup{
+	display: block;
+	margin: 0 auto;
+}
+.overlay{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+.win1{
+	position: absolute;
+	top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 300px;
+	height: 100px;
+	border: 1px solid #000;
+	background: white;
+	transition: all 0.5s;
+}
+.win2{
+	top: 50%;
+	transition: all 0.5s;
+}
+#text-pop{
+	text-align: center;
+}
+
+#list{
+	width: 100px;
+	margin: 0 auto;
+}
+.red{
+	color: red;
+}
+#listInp{
+	width: 250px;
+}
+#listBtn{
+	width: 100px;
+}
+.listForm{
+	display: block;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.wrap-img{
+	position: relative;
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrap-img img{
+	width: 100%;
+}
+.wrap-img1{
+	position: relative;
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrap-img1 img{
+	width: 280px;
+}
+.hidden{
+	position: absolute;
+	width: 280px;
+	top: 20px;
+	right: -300px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
+.hidden7{
+	width: 900px;
+	text-align: center;
+	height: auto;
+	margin: 0 auto;
+	display: none;
+	border: 1px solid #ccc;
+}
+#wrapH{
+	text-align: center;
+}
